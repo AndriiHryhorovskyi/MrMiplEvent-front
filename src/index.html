@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- <base href="/" /> -->
+
+    <title>Game fest</title>
+    <!-- <meta name="description" content="" /> -->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link rel="manifest" href="manifest.json" />
+    <link
+      rel="icon"
+      href="img/favicons/icon-16.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link
+      rel="icon"
+      href="img/favicons/icon-32.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicons/icon-180.png"
+    />
+
+    <!-- Custom Browsers Color Start -->
+    <!-- <meta name="theme-color" content="#000"> -->
+    <!-- Custom Browsers Color End -->
+
+    <!-- Open Graph Settings Start -->
+    <!-- <meta property="og:image" content="path/to/image.jpg"> -->
+    <!-- Open Graph Settings End-->
+  </head>
+  <body>
+    <!-- Custom HTML -->
+    <header class="screen info">
+      <img class="logo" src="img/content/logo.gif" alt="logo" />
+
+      <div class="participants">
+        <h2 class="participants-title">Нас вже</h2>
+        <span class="participants-count">9</span>
+      </div>
+
+      <div class="invite">
+        <h1 class="invite-title">ІГРОФЕСТ</h1>
+        <h3 class="invite-description">це багато цікавих ігор</h3>
+        <form action="/" method="POST">
+          <label for="participant_phone"
+            >введіть номер телефону (0XX) XXXXXXX</label
+          >
+          <br />
+          <label id="error"></label>
+          <input
+            type="tel"
+            name="phone"
+            id="participant_phone"
+            placeholder="(0XX)-XXX-XXXX"
+          /><br />
+          <input type="button" value="Взяти участь" />
+        </form>
+      </div>
+    </header>
+    <main class="screen about">
+      <div class="gallery">
+        <div class="gallery-item img1"></div>
+        <div class="gallery-item img2"></div>
+        <div class="gallery-item img3"></div>
+        <div class="gallery-item img4"></div>
+        <div class="gallery-item img5"></div>
+        <div class="gallery-item img6"></div>
+      </div>
+      <article class="about_event">
+        <p>
+          Ми запрошуємо, Вас поринути в світ настільних ігор - світ веселощів,
+          логіки і чарівництва. Всього за кілька хвилин за допомогою пари фішок,
+          карт і ігрового поля Ви можете побудувати і зруйнувати цілі
+          цивілізації, стати мафіозі, докопатися до золота або ж зварити зілля,
+          яка виконує бажання.
+        </p>
+        <p>
+          Настільні ігри - це відмінний спосіб скрасити тихий сімейний вечір або
+          ж надати ще більшого веселощів гучній вечірці.
+        </p>
+        <p>
+          Настільні ігри - це розвиток мислення, фантазії, пам'яті і уважності.
+          Це захоплююча гра, в якій потрібно застосувати всі Ваші знання,
+          вміння, спритність і винахідливість.
+        </p>
+        <p>
+          Настільні ігри - це не просто розвага, це ціле життя дійовою особою в
+          якої є Ви, і все в ній залежить від обраної Вами карти, кинутої кістки
+          або ж кольору Вашої фішки.
+        </p>
+      </article>
+    </main>
+    <section class="screen contactInfo">
+      <h2 class="title">Контактна інформація</h2>
+
+      <div class="contacts_list">
+        <div class="contancts_list-digital">
+          <p>
+            <a href="https://www.facebook.com/igrofestkp/">
+              <svg
+                data-v-eb95ee5a=""
+                class="fb_icon"
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fab"
+                data-icon="facebook-square"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                data-fa-i2svg=""
+              >
+                <path
+                  fill="currentColor"
+                  d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"
+                ></path>
+              </svg>
+              Ігрофест
+            </a>
+          </p>
+          <p><a href="tel:+380983386418">(098) 338 64 18</a></p>
+          <p>
+            <a href="mailto:irarainchuk13@gmail.com">irarainchuk13@gmail.com</a>
+          </p>
+        </div>
+        <div class="contancts_list-address">
+          <p>м. Кам'янець-Подільський, вулиця П'ятницька 9</p>
+          <p>Національний історико-архітектурний заповідник</p>
+        </div>
+        <div class="sponsor">
+          <a
+            href="https://www.facebook.com/groups/316840685405085/?epa=SEARCH_BOX"
+          >
+            <img
+              srcset="
+                ./img/content/sponsor-320.png 320w,
+                ./img/content/sponsor-480.png 480w,
+                ./img/content/sponsor-601.png 601w
+              "
+              src="./img/content/sponsor-320.png"
+              alt="MisterMipl"
+            />
+          </a>
+        </div>
+      </div>
+
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2634.6878354083115!2d26.571823916031143!3d48.673212521680746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4733c7871415a969%3A0x22b941e8db39567e!2z0J3QsNGG0LjQvtC90LDQu9GM0L3Ri9C5INC40YHRgtC-0YDQuNC60L4t0LDRgNGF0LjRgtC10LrRgtGD0YDQvdGL0Lkg0LfQsNC_0L7QstC10LTQvdC40LogwqvQmtCw0LzQtdC90LXRhsK7!5e0!3m2!1sru!2sua!4v1561294902984!5m2!1sru!2sua"
+        width="600"
+        height="450"
+        frameborder="0"
+        style="border:0"
+        allowfullscreen
+      ></iframe>
+    </section>
+    <footer><p>Copyright © 2019</p></footer>
+  </body>
+</html>
